@@ -9,21 +9,6 @@ A simple Notepad-like desktop application built using Java Swing.
 - Scrollable text area
 - Left margin for text readability
 
-## Project Structure
-
-```
-
-SimpleNotepad/
-├── .idea/                 # IntelliJ IDEA configuration files
-├── out/                   # Compiled output files
-├── src/
-│   └── SimpleNotepad.java # Main application file
-├── .gitignore             # Git ignore rules
-├── README.md              # This file
-└── SimpleNotepad.iml      # IntelliJ module file
-
-````
-
 ## Prerequisites
 
 - Java JDK 17 or later installed on your machine
@@ -68,7 +53,6 @@ java -cp out SimpleNotepad
 * `-cp out` tells Java where to find compiled classes.
 * Make sure `SimpleNotepad.java` has `public static void main(String[] args)`.
 
-**Tip:** If you want to run multiple times without retyping paths, you can create a `.bat` file with the compile and run commands.
 
 ---
 
